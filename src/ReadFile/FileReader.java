@@ -10,8 +10,7 @@ import java.util.List;
 public class FileReader {
 
 
-   public void readFile(){
-       String filePath="C://jdj";
+   public void readFile(String filePath){
        try {
            Path path= Paths.get(filePath);
 
